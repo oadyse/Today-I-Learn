@@ -27,4 +27,4 @@ Mr. Justin about our project. But so far I am so happy to get this Team. Applaus
 
 ## LEARNING ABOUT MY TEAMMATES
 I am so happy to know get new friend from this Bootcamp. For the first time I was so worried cus hard for me to start something new
-collaboration with someone else. But still I can say Good Job for U guys as my teammates.
+collaboration with someone else. But still I can say Good Job for U guys as my teammates 🥜🥜🥜.
