@@ -6,7 +6,7 @@ October 17th, 2022
 So, Today I received an invited email from ZEP. And then I add my account first. After that I changed my avatar, u can see down bellow
 how my avatar looks like XD. And it's kinda something new from me use this Platform. This is my first time I can say.
 Meanwhile, I need to boost my connection 😪🙂, cus I was getting some troubles use this platform. I logged out and logged in many times
-cus of it. But still, It's new experience from me use this platform cus it so CUTE 🥰😍❤.
+cus of it. But still, It's new experience from me use this platform. OVERALL IT'S SO CUTE 🥰😍❤.
 
 ![image](https://user-images.githubusercontent.com/62550785/196229670-2274e996-9784-4bc8-8b40-1b9056b69dc5.png)
 
