@@ -5,9 +5,10 @@ October 18th, 2022
 ## Introduce🤗
 
 Well, for the introduce. I wanna to say that today I started my day earlier? I'd say
-I started my day with had a breakfast first, cus this is the important thing to start my day XD
-My fav food for breakfast usually Soup Base, like Sop, Soto, etc 🥘🍲🍵
-I got WhatsApp notification from my Team Leader, and he asked us to live on ZEP
+
+I started my day with had a breakfast first, cus this is the important thing to start my day XD.
+My fav food for breakfast usually Soup Base, like Sop, Soto, etc 🥘🍲🍵.
+I got WhatsApp notification from my Team Leader, and he asked us to live on ZEP.
 Well I live on ZEP, but still my connection was so bad, so I got the lower ranking on the first day 😔
 
 ## Our team goal today🙌🏼
