@@ -44,4 +44,5 @@ So thankful to have them as a Mentor, they're such a easy going person. 🥰
 ## The plan for tomorrow
 
 * We finally finish our first mini project !!!
+* You can visit this link 👉🏼👉🏼👉🏼 https://pecel-shop.herokuapp.com/
 ![screencapture-pecel-shop-herokuapp-2022-10-21-00_02_19](https://user-images.githubusercontent.com/62550785/197013199-2285a44a-2d6b-4666-a247-5ec41012bd13.png)
