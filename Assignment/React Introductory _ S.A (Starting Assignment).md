@@ -59,6 +59,29 @@ In JavaScript, typecasting means converting one data type to another data type b
 - **Implicit type casting** is a data type conversion performed due to internal requirements or automatic conversion by the compiler or interpreter.
 - **Explicit type casting** is done forcibly by the developer in order for the lines of code to look good. In JavaScript type casting can be done only for strings, numbers and Boolean data types (objects).
 
+### 3. Operator '==' '==='
+
+* Operator **==** in JavaScript is mean equal to.
+
+* Operator **===** in JavaScript is mean equal value and equal type.
+
+### 4. What is the problem of a loosely typed dynamic language, and what are the ways to supplement it?
+
+The problem with using loosely typed language is that it will produce unexpected or even incorrect output at run-time. Example, when an integer value is expected in the calculation but instead a string value is passed instead. The way to complete it is that we can prevent it by validating the data type before performing a specific operation.
+
+### 5. Compare the difference between undefined and null
+
+- **Null** is an object type that is a built-in type in javascript and does not contain any values.
+- **Undefined** is generated when a variable is not given an initial value or when the void operator is used.
+
+Example :
+
+![image](https://user-images.githubusercontent.com/62550785/197247073-6f2cfb4b-f74b-43c8-afd4-647c6d3f4841.png)
+
+
+
+
+#
 ## What is JavaScript object and Immutability?
 
 #### JavaScript Object
@@ -143,6 +166,168 @@ frequently populate those found in the original.
 | It stores references of the object in the main memory.	| It stores copies of the object values. |
 
 
+
+
+#
+## Hoisting and TDZ
+
+### 1. Scope, Hoisting and TDZ
+
+#### **Scope**
+
+* **Scope** is related to declaring a variable. There are 3 type of scope in JavaScript.
+
+* **Block Scope** - Use {} (Braces) any variable declared inside the braces will be available inside the block. Use let, const.
+
+```js
+{
+  let jml_ayam = 2;
+}
+// jml_ayam can NOT be used here
+```
+
+* **Local Scope** - function scope is also called as local scope. It is only available inside the function. Use var, let, const.
+
+```js
+// code here can NOT use ayam
+
+function myFunction() {
+  let ayam = "Goreng";
+  // code here CAN use ayam
+}
+
+// code here can NOT use ayam
+````
+
+* **Global Scope** - variable that applied anywhere. Use var, let, const.
+
+```js
+let ayam = "goreng";
+// code here can use ayam
+
+function myFunction() {
+// code here can also use ayam
+}
+```
+
+#### **Hoisting**
+
+Is a feature to still run a code line even though some variable are still undefined as long as you define it somewhere.
+
+```js
+console.log(makanan); //undefined
+var makanan = 'ayam';
+````
+
+#### **Temporal Dead Zone**
+
+Is a zone where it will return ReferenceError for const and let. It starts from the beginning of the variable scope to when the variable is declared.
+
+```js
+{
+// Start of bebek's TDZ
+let ayam = 'ayam';
+console.log(ayam); // "ayam" No problem at all for ayam.
+
+console.log(bebek); // ReferenceError because we're in the TDZ
+
+let bebek = 'bebek'; // End of foo's TDZ
+}
+```
+
+Not only from top to bottom, it also applied on left to right.
+
+```js
+function ayamgoreng(ayam = goreng, goreng = 'goreng') {
+console.log(ayam);
+}
+ayamgoreng(); // Uncaught ReferenceError: Cannot access 'goreng' before initialization.
+// variable goreng is declared later after when it is already called when we tried to define variable ayam.
+```
+
+### 2. Different ways of hoisting in Function Declarations and Function Expressions
+
+* Example the code above will still show a result "undefined". Hoisting feature act differently depend on how you declare your variables. For example with var. it will always give "undefined" value when you declare it somwhere.
+
+```js
+console.log(ayam); // undefined
+
+
+var ayam = 'goreng';
+# console.log(ayam); // "goreng"
+
+
+# In different situation where you separed declaration of variable and assign the variable value.
+var makanan;
+console.log(makanan); // undefined
+makanan = 'ayam';
+# console.log(makanan); // "ayam"
+
+
+# In case you never declare the variable.
+# console.log(makanan); // Uncaught ReferenceError: makanan is not defined
+```
+
+* Example with let and const. it will give ReferenceError even though you declare it later.
+
+```js
+console.log(makanan); // Uncaught ReferenceError: Cannot access 'makanan' before initialization
+# let makanan = 'ayam'; // Same behavior for variables declared with const
+```
+
+### 3. Execution Context and Call Stack
+
+#### Execution context
+
+Just imagine that Execution context is a box where you store the information that will be called later. To have better understanding about this box, first we must learn about how the javascript run the code.
+
+There are several process for running the code:
+
+* Creation Phase / Memory allocation phase
+ 
+The code will collect all variable, check the scope of each variable and then collect this keyword. (this is a complex thing but in simple term, it is like an object.). This process will trying to connect the variable in function. Until all of it is defined or sent an error feedback. In this process, Javascript haven't assign any value to the variable.vAll of these creation phase will be stored in execution context. Execution context is like a box where you store the information that will be called later.
+
+* Execution Phase / Code execution phase
+
+In this phase, after the code is connected, it will run the mathematical logic and calculating the value of the variable. Showing text or storing data to database depend on what is written in the code.
+
+#### Call Stack
+
+If execution context is like a box. Imagine that Call stack is a room or a bigger box. You will put the execution context inside that bigger box. You will stack it, first one will go to the bottom and will be removed last. The execution context on the top will be placed last and it is also will be removed first. With this way, Javascript will make sure everything run normally when it need more than 2 or more function to run a code.
+
+Whatever you put inside this room/bigger box will be executed. Then later removed from the memory. After it is done with everything, Javascript will remove global execution.
+
+For detailed step:
+
+* Javascript run the code... it will put global execution context to the call stack. Now global execution context is in the most bottom/lowest place.
+* Whenever a function is executed, we will put it on the call stack.
+* If it call another function, we will put another execution context on the stack.
+* Each function has its own execution context.
+* Until we end up with "return", then we will remove the function on the top. It will goes back to previous execution context.
+* This process will repeat until we remove the most bottom execution context which is global execution context.
+
+```js
+const ayam = "ayam" // This is global, will be in global execution context.
+
+function first_function(){ // This function will have its own execution context. let a = 1; b = second_function(); // Inside first_function execution context, we will stack another execution context (which is second_function) c = a + b; return c; }
+
+function second_function(){ // second_function will be placed on top and removed first. var d = 2; return d; }
+```
+
+### 4. Scope Chain and Information Hiding
+
+
+* Scope chain.
+As we learned before, in creation phase/memory allocation phase, we will collect all variable and find the connection between each variables. From past example, variable d has its own scope but first_function() still has the access to it. The value is still undefined until the execution process.
+
+* Information hiding
+variable declared inside a function will has a limited scope.
+Some review from past.
+
+
+
+
+#
 ## What would be the “b” value printed on the console?
 
 ![image](https://user-images.githubusercontent.com/62550785/197227507-8a9ebe80-4d8d-437d-a885-1b9e0f83d58f.png)
