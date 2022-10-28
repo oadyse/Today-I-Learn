@@ -2,23 +2,22 @@
 ## SpartaCodingClub Full-Stack Bootcamp in Indonesia
 October 28th, 2022
 
+##
+
+## Introduction
+
+Hello, holaa
+So today I get a new teammates Yeayyyy
+
+I get new friend again here. I am so happy to know each other friend in ZEP.
+
+Well, Today we had a session with Mr. Justin about Javascript Fundamental. He explained to us about basic things about JavaScript.
+Start from the *Declaration, Variable, Operation, Arithmetic, Assignment, Data Types, etc.* If you want to know more just look at this link : https://www.w3schools.com/js/default.asp
+
 ## What did I learn today ?
 
-
-
-## What did I do well?
-
-
-
-## What needs to improve?
-
-### Problem
-
-
-
-### Action
-
-
+- New Teammates
+- New lesson or material about JavaScript Fundamental.
 
 #### Documentation for today
 
