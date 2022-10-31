@@ -7,6 +7,10 @@ October 31th, 2022
 Today was such a tiring day for me. I was trying to survive for this class at least on this night. 
 But finally I can finish this class until I write this TIL today.
 
+Today we had presentation team task after we finished the questions.
+
+![image](https://user-images.githubusercontent.com/62550785/199056716-1d41dc4d-be39-44be-817e-143481add2ba.png)
+
 ## Answer the Questions
 - **Component A is subscribing Redux store. If the data saved in Redux has changed, (Let’s say that the variable that A is subscribing has changed) in what process does component A go through to get the changed variable? Demonstrate the flow (use pictures, presentation slides, hand-drawn, etc)**
   
@@ -18,6 +22,7 @@ But finally I can finish this class until I write this TIL today.
   After changed, the new state will visualize in View. 
 
   ![image](https://user-images.githubusercontent.com/62550785/199052737-f127a855-5f0f-4553-829f-d86887c536ed.png)
+  ![image](https://user-images.githubusercontent.com/62550785/199056950-44ae829e-f516-456a-b705-573d984aedca.png)
 
 ##
 
