@@ -1,6 +1,6 @@
 # Today-I-Learn #10
 ## SpartaCodingClub Full-Stack Bootcamp in Indonesia
-October 31th, 2022
+October 31st, 2022
 
 ## Introduce
 
