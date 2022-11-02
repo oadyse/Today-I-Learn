@@ -1,4 +1,4 @@
-# Today-I-Learn #12
+# Today-I-Learn #13
 ## SpartaCodingClub Full-Stack Bootcamp in Indonesia
 November 2nd, 2022
 
@@ -57,3 +57,8 @@ November 2nd, 2022
 - We had a discussion about our personal task, actually previously we had a mentoring session with Mr. Adhitya, but I forgot to capture it.
 
   ![image](https://user-images.githubusercontent.com/62550785/199544032-21e1fdc6-f8d5-4dc7-9d5c-4c8edd94594f.png)
+  
+- You can see my task in link here : [my-todolist-2-sarieka](http://my-todo-list2-sarieka.herokuapp.com/)
+
+  ![image](https://user-images.githubusercontent.com/62550785/199548388-53a5b5e3-22c0-448a-88eb-6a8ea36ff390.png)
+
