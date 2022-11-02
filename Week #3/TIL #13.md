@@ -7,6 +7,35 @@ November 2nd, 2022
 - Today I learn about Redux again, and re-read about the Team Task before.
 - We had a mentoring session with Mr. Adhitya
 - Today I finished my Personal Task
+- So today I had a problem about my deploy.
+  
+  
+  It turn error like this:
+  
+  ```
+  -----> Building on the Heroku-20 stack
+  -----> Determining which buildpack to use for this app
+  -----> Node.js app detected
+  -----> Build failed
+   !     Two different lockfiles found: package-lock.json and yarn.lock
+         Both npm and yarn have created lockfiles for this application,
+         but only one can be used to install dependencies. Installing
+         dependencies using the wrong package manager can result in missing
+         packages or subtle bugs in production.
+         - To use npm to install your application's dependencies please delete
+           the yarn.lock file.
+           $ git rm yarn.lock
+         - To use yarn to install your application's dependencies please delete
+           the package-lock.json file.
+           $ git rm package-lock.json
+
+         https://help.heroku.com/0KU2EM53
+   !     Push rejected, failed to compile Node.js app.
+   !     Push failed
+  ```
+  
+  And I solved it with delete my package-lock.json and deploy it again.
+  Voilaaa, it solved.
 
 ## What did I do well ?
 
