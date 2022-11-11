@@ -234,13 +234,13 @@ Redux is state management in ReactJs. By using Redux, we simply create one state
 
 ### b) Explain in detail when (and when not) to use Redux
 
->***When should to use Redux?
+>***When should to use Redux?***
 
 - We have a very large and complex application with many states required in many application places
 - We need to add complex logic every time a certain state is updated
 - Codebase is medium size or higher and has many contributors
 
->***When shouldn't you use Redux?
+>***When shouldn't you use Redux?***
 
 - Small code base.
 - An application consisting only of UI changes
