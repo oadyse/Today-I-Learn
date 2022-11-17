@@ -24,4 +24,6 @@ November 16th, 2022
 
    We have some error like minimum resourses, and struggle in made the scroll but we are have done it with mentor Justin help.
    Thanks for my Mentor hehe :D
+   
+   For the result, we already deploy it on the link 👉🏼 https://sevenday-clone-coding.vercel.app/
 
