@@ -1,4 +1,4 @@
-# Today-I-Learn #34
+# Today-I-Learn #34 (Last Day of Week #7)
 ## SpartaCodingClub Full-Stack Bootcamp in Indonesia
 December 1st, 2022
 
