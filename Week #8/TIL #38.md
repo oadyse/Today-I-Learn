@@ -1,6 +1,6 @@
 # Today-I-Learn #38
 ## SpartaCodingClub Full-Stack Bootcamp in Indonesia
-December 7nd, 2022
+December 7th, 2022
 
 ### What I've done today?
   
