@@ -4,7 +4,9 @@ December 6th, 2022
 
 ### What I've done today?
   
-  -
+  - We continue, and on going to finish the clone project
+    
+    ![image](https://user-images.githubusercontent.com/62550785/205965059-aa0ad244-a3b2-4f55-8cf5-3ebe4e8909b3.png)
 
 ### What I need to Improve?
 
