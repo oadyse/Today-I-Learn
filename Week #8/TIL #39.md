@@ -4,7 +4,7 @@ December 8th, 2022
 
 ### What I've done today?
   
-  -
+  - Present the final clone project
 
 ### What I need to Improve?
 
