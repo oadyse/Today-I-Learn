@@ -2,15 +2,16 @@
 ## SpartaCodingClub Full-Stack Bootcamp in Indonesia
 December 27th, 2022
 
-## What I've done today?
+## What We've done today?
 
-  - Today, Finally I came back to Bootcamp after several days I wasn't here.
-  - We had a zoom session for Orientation Day for the Final Project.
-  - We had a game session with all bootcamp members.
-  - We met new member of designer to help us for the Final Project.
-  - I had a new team for Final Project.
-  - I am so sleepyyy,,,, zzzzzz
+  - We already divided our role as a front-end and back-end
+  - We had a mentoring session with Mr. Aditya
+  - We already finished our daily target
+  - We decided what we're gonna start first and list the priority
 
 ## Documentation
 
-  ![WhatsApp Image 2022-12-23 at 10 09 07 PM](https://user-images.githubusercontent.com/62550785/209358234-92e0d4f7-6da4-451b-b9c6-2b9dfa42003e.jpeg)
+  ![image](https://user-images.githubusercontent.com/62550785/209686309-584f58e2-a8c8-4ac2-a74f-a5298a2d3dbe.png)
+  
+  ![Screenshot (262)](https://user-images.githubusercontent.com/62550785/209687123-ee5bdb61-2669-4265-9167-80730e6c8caf.png)
+
