@@ -1,4 +1,4 @@
-# Today-I-Learn Week #12 | Day 1
+# Today-I-Learn Week #12 | Day 2
 ## SpartaCodingClub Full-Stack Bootcamp in Indonesia
 January 3rd, 2023
 
