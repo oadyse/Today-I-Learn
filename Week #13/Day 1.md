@@ -5,10 +5,12 @@ January 10th, 2023
 ## What I've done today?
 
   - I had afocus time session with my team.
-  - On going with Adopt Page Front End.
+  - On going with Adopt Page Front End, still 50%.
   - Good Luck for me
   - Even though I am trying focus, but still something distract me all the time.
+  - Still hard to focus :"(
 
 ## Documentation
   
-  ![image](https://user-images.githubusercontent.com/62550785/211030343-77dd502c-5678-4d15-ad92-e1611434d660.png)
+  ![Screenshot (269)](https://user-images.githubusercontent.com/62550785/211352701-68d4fa38-ab9d-4529-9c74-84d6336e0109.png)
+
