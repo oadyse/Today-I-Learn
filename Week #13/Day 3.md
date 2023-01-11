@@ -1,13 +1,14 @@
 # Today-I-Learn Week #13 | Day 3
 ## SpartaCodingClub Full-Stack Bootcamp in Indonesia
-January 12nd, 2023
+January 11nd, 2023
 
 ## What I've done today?
 
-  - I had afocus time session with my team.
-  - On going with Adopt Page Front End.
+  - I had a focus time session with my team.
+  - Trying to solve the bug in Login Page view.
   - Good Luck for me
   - Even though I am trying focus, but still something distract me all the time.
+  - Can I be Free?
 
 ## Documentation
   
