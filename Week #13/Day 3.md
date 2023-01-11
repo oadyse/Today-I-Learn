@@ -6,6 +6,7 @@ January 11nd, 2023
 
   - I had a focus time session with my team.
   - Trying to solve the bug in Login Page view.
+  - Preparing for presentation tomorrow. Good luck for our leader : Pak Arman
   - Good Luck for me
   - Even though I am trying focus, but still something distract me all the time.
   - Can I be Free?
